@@ -344,3 +344,14 @@ export default function HomePage() {
     </div>
   );
 }
+// In the Desktop Menu section (around line 30)
+<div className="hidden md:flex items-center gap-8">
+  <a href="#services" className="text-white hover:text-[hsl(145,30%,55%)] transition-colors">Services</a>
+  <a href="#about" className="text-white hover:text-[hsl(145,30%,55%)] transition-colors">About</a>
+  <a href="#team" className="text-white hover:text-[hsl(145,30%,55%)] transition-colors">Team</a>
+  <a href="#contact" className="text-white hover:text-[hsl(145,30%,55%)] transition-colors">Contact</a>
+  <a href="/integrations" className="text-white hover:text-[hsl(145,30%,55%)] transition-colors">Integrations</a>
+  <Button className="bg-[hsl(145,30%,55%)] hover:bg-[hsl(145,30%,45%)] text-white">
+    Get Quote
+  </Button>
+</div>
