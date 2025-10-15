@@ -388,16 +388,6 @@ export default function IntegrationStrategiesPage() {
               {selectedIntegrations.map((name, idx) => (
                 <li key={idx} className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5" />
-                  <span>{name}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-sm opacity-90">
-              💡 Tip: Start with high-priority items first, then work your way through medium and low priority integrations.
-            </p>
-          </div>
-        )}
-      </div>
-    </div>
+                  <span>{nam
   );
 }
